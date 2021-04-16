@@ -1,0 +1,61 @@
+/*
+  FONTS
+  Variables
+  General
+  Header
+  Main
+  Images
+  footer
+  Media Queries
+  Notes
+*/
+/*--------->FONTS<-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+/*Decorative for H1  font-family: 'Caveat', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Rochester&display=swap');
+/*Decorative for H1 another option
+font-family: 'Rochester', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/*font-family: 'Raleway', sans-serif;*/
+/*--------->Variables<-----------*/
+:root {
+  --ligth-white: #FBEFE5;
+  --darkest-brown: #8C3F23;
+  --dark-brown: #BF622C;
+  --light-brown: #F2A766;
+  --cherry: #D90754;
+}
+
+/*--------->General Styles<-----------*/
+body {
+  background-color:;
+  font-family:;
+}
+
+
+h1 {
+  }
+
+p {}
+
+/*--------->HEADER<-----------*/
+
+/*--------->Main<-----------*/
+
+/*--------->Media Queries<-----------*/
+@media (max-width: 768px) {
+  
+}
+
+/*--------->NOTES<-----------*/
+/*
+- Para centrar algo horizontalmente en navegadores modernos, usa display:
+ flex; justify-content: center;
+
+- Sin embargo, en navegadores antiguos como IE8-9, flexbox no está disponible.
+Para poder centrar un elemento horizontalmente con respecto a su contenedor,
+usa margin: 0 auto;
+
+*/
