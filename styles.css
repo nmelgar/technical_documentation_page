@@ -29,24 +29,37 @@ font-family: 'Rochester', cursive;
 }
 
 /*--------->General Styles<-----------*/
-body {
-  background-color:;
-  font-family:;
+#container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+
 }
 
 
-h1 {
-  }
-
-p {}
-
 /*--------->HEADER<-----------*/
+#nav-bar{
+  /*Make the nav-bar dont move when scrolling*/
+  position: fixed;
+}
 
+#nav-bar ul li{
+  list-style: none;
+  line-height: 2em;
+}
+
+#nav-bar ul li a{
+  text-decoration: none;
+}
 /*--------->Main<-----------*/
+main{
+
+}
+
 
 /*--------->Media Queries<-----------*/
 @media (max-width: 768px) {
-  
+
 }
 
 /*--------->NOTES<-----------*/
