@@ -31,35 +31,33 @@ font-family: 'Rochester', cursive;
 /*--------->General Styles<-----------*/
 #container {
   max-width: 100%;
-  display: grid;
-  grid-template-columns: 20% 80%;
-
 }
 
-
 /*--------->HEADER<-----------*/
-#nav-bar{
+#side-bar {
+  /*Width from right to left to allow the side var to be at rigth*/
+  width: 250px;
   /*Make the nav-bar dont move when scrolling*/
   position: fixed;
 }
 
-#nav-bar ul li{
+#side-bar ul li {
   list-style: none;
   line-height: 2em;
 }
 
-#nav-bar ul li a{
+#side-bar ul li a {
   text-decoration: none;
 }
-/*--------->Main<-----------*/
-main{
 
+/*--------->Main<-----------*/
+main {
+  margin-left: 300px;
 }
 
-
 /*--------->Media Queries<-----------*/
-@media (max-width: 768px) {
-
+@media (max-width: 1367px) {
+  #container {}
 }
 
 /*--------->NOTES<-----------*/
