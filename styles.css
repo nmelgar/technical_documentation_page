@@ -10,49 +10,66 @@
   Notes
 */
 /*--------->FONTS<-----------*/
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
-/*Decorative for H1  font-family: 'Caveat', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Rochester&display=swap');
-/*Decorative for H1 another option
-font-family: 'Rochester', cursive;
-*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-/*font-family: 'Raleway', sans-serif;*/
 /*--------->Variables<-----------*/
 :root {
-  --ligth-white: #FBEFE5;
-  --darkest-brown: #8C3F23;
-  --dark-brown: #BF622C;
-  --light-brown: #F2A766;
-  --cherry: #D90754;
+  --grey: #E1E1E1;
+  --light-grey: #F3F3F3;
+  --white: #ffffff;
+  --light-dark: #1B1B1B;
+  --dark: #141414;
+  --black: #000000;
+}
+
+body {
+  background: var(--light-dark);
 }
 
 /*--------->General Styles<-----------*/
 #container {
   max-width: 100%;
+  color: var(--white);
+}
+
+h2 {
+  color: #39ff14;
+}
+
+hr {
+  color: #39ff14;
 }
 
 /*--------->HEADER<-----------*/
 #side-bar {
   /*Width from right to left to allow the side var to be at rigth*/
   width: 250px;
+  height: 100%;
   /*Make the nav-bar dont move when scrolling*/
   position: fixed;
+  overflow: visible;
 }
 
 #side-bar ul li {
   list-style: none;
   line-height: 2em;
+  border: 1px solid var(--grey);
+  padding-left: 5px;
 }
 
 #side-bar ul li a {
   text-decoration: none;
+  color: var(--light-grey);
 }
 
 /*--------->Main<-----------*/
 main {
   margin-left: 300px;
+}
+
+.code-shape {
+  color: var(--black);
+  background: var(--light-grey);
+  padding: 1em;
+  opacity: 0.9;
 }
 
 /*--------->Media Queries<-----------*/
