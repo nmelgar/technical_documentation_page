@@ -60,9 +60,18 @@ hr {
   color: var(--light-grey);
 }
 
+#side-bar ul li a:hover {
+  color: #39ff14;
+}
+
 #side-bar #main-title a {
   color: #39ff14;
   font-size: 1.3em;
+}
+
+main a {
+  color: #39ff14;
+  text-decoration: none;
 }
 
 /*--------->Main<-----------*/
@@ -79,9 +88,10 @@ main {
 
 /*--------->Media Queries<-----------*/
 @media (max-width: 768px) {
-  body{
+  body {
     margin: 0 auto;
-    padding-top:  20px;
+    padding-top: 20px;
+    overflow-x: hidden;
   }
 
   #container {
@@ -91,22 +101,15 @@ main {
 
   #side-bar {
     height: 12rem;
-    margin: 0 auto;
     overflow: scroll;
     overflow-x: hidden;
     position: static;
-    width: 100%;
-
-
-
+    width: 95%;
   }
 
   main {
-    margin: 0 auto;
-    padding: 2em;
+    margin: 18px;
   }
-
-
 }
 
 /*--------->NOTES<-----------*/
