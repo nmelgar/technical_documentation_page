@@ -60,6 +60,11 @@ hr {
   color: var(--light-grey);
 }
 
+#side-bar #main-title a {
+  color: #39ff14;
+  font-size: 1.3em;
+}
+
 /*--------->Main<-----------*/
 main {
   margin-left: 300px;
@@ -67,14 +72,41 @@ main {
 
 .code-shape {
   color: var(--black);
-  background: var(--light-grey);
+  background: var(--white);
   padding: 1em;
   opacity: 0.9;
 }
 
 /*--------->Media Queries<-----------*/
-@media (max-width: 1367px) {
-  #container {}
+@media (max-width: 768px) {
+  body{
+    margin: 0 auto;
+    padding-top:  20px;
+  }
+
+  #container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #side-bar {
+    height: 12rem;
+    margin: 0 auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: static;
+    width: 100%;
+
+
+
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 2em;
+  }
+
+
 }
 
 /*--------->NOTES<-----------*/
